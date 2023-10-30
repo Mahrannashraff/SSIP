@@ -1,0 +1,138 @@
+html{
+    background-image: url(Background.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-logo>img{
+    height: 150px;
+}
+
+.nav-items{
+    display: flex;
+    font-size: 25px;
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+li{
+    list-style: none;
+}
+
+li:hover{
+    color: #808080;
+}
+
+.nav-btn{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: 500;
+    background-color: white;
+    transition: width 0.8s, height 0.8s;
+}
+
+.nav-btn:hover{
+    background-color: #808080;
+    width: 125px;
+    height: 45px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content-left>h1{
+    font-size: 55px;
+}
+
+.content-left>p{
+    font-size: 20px;
+}
+
+.search{
+    display: flex;
+    gap: 8px;
+}
+
+.search>input{
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    padding: 3px;
+    font-weight: 500;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+.search>button{
+    height: 41px;
+    width: 50px;
+    border-radius: 10px;
+}
+
+.search>button:hover{
+    background-color: #808080;
+}
+
+
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+
+.get-started{
+    margin-top: 20px;
+    font-size: 20px;
+    width: 140px;
+    height: 40px;
+    border-radius: 12px;
+    font-weight: 600;
+    transition: width 0.8s, height 0.8s;
+}
+
+.demo{
+    margin-top: 20px;
+    font-size: 20px;
+    width: 180px;
+    height: 40px;
+    border-radius: 12px;
+    font-weight: 600;
+    transition: width 0.8s, height 0.8s;
+}
+
+.get-started:hover, .demo:hover{
+    background-color: #808080;
+}
+
+.side-img{
+    width: 350px;
+    height: 430px;
+    border-top-right-radius: 150px;
+    border-top-left-radius: 150px;
+    border: 10px solid #e6e6e6;
+}
